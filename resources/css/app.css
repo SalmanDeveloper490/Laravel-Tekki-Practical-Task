@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+fieldset{
+ display:none;
+}
+#first{
+ display:block;
+}
+button {
+    color: inherit !important;
+}
+button:hover {
+    color: #fff !important;
+}
+.form-section{
+    display: none;
+}
+.form-section.current{
+    display: inline;
+}
+.parsley-errors-list{
+    color:red;
+}
